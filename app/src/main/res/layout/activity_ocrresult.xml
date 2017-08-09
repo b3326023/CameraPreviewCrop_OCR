@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.b3326.camerapreviewcrop.OCRResult">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="568dp"
+        android:layout_height="652dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <TextView
+        android:id="@+id/OCRTextView"
+        android:layout_width="735dp"
+        android:layout_height="664dp"
+        android:background="#c8a8e7fe"
+        android:text="OCR辨識結果將顯示於此"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>
